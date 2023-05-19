@@ -52,8 +52,6 @@ function generateMarkdown(data) {
     return `# ${data.title}
 
 
-${renderLicenseSection(data.license)}   
-
 
 ## Description 
 ${data.description}
@@ -71,8 +69,7 @@ ${data.usage}
 
 
 ## Questions
-Github:[${data.username}](https://github.com/${data.username}),
-
+Github:[${data.username}](https://github.com/${data.username})
 Any other questions, email me at ${data.email}
 
 
@@ -80,7 +77,7 @@ Any other questions, email me at ${data.email}
 
 ## License 
 ${data.license}
-
+${renderLicenseSection(data.license)}   
 `;
 
 }
