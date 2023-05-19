@@ -28,6 +28,27 @@ const questions = [
       "The Unlicense",
     ],
   },
+  {
+    type: "input",
+    message: "What is the installation process for this project?",
+    name: "installation",
+  },
+  {
+    type: "input",
+    message: "How do you use this project",
+    name: "usage",
+  },
+  {
+    type: "input",
+    message: "Type in your Github username",
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "What is your email address?",
+  }
+
+
 ];
 
 // TODO: Create a function to write README file

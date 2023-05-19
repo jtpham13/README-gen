@@ -1,9 +1,9 @@
-# read me
+# weather app
 
 
 undefined   
 
 
-read me
+app for looking up the weather
 
 Boost Software
